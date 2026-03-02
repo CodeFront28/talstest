@@ -69,7 +69,7 @@ body {
 
 .home {
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   position: relative;
   background-image: url(../img/bg1.webp);
   background-size: cover;
@@ -896,7 +896,7 @@ h1 .color .scramble {
 ========================= */
 body.is-loading {
   overflow: hidden;
-  height: 100vh;
+  height: 100dvh;
 }
 
 .preloader {
@@ -1142,7 +1142,7 @@ body.is-loading {
 
 .narrative {
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   position: absolute;
   left: 0;
   top: 0;
@@ -1172,7 +1172,7 @@ body.is-loading {
 
 .scene__container {
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
 }
 
 /* чтобы трансформы шли максимально плавно */
@@ -1218,7 +1218,7 @@ body {
   left: 0;
   top: 0;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
   overflow: hidden;
   z-index: 50;
   will-change: left, top, width, height, border-radius;
@@ -1231,7 +1231,7 @@ body {
   left: 50% !important;
   top: 50% !important;
   width: 100vw !important;
-  height: 100vh !important;
+  height: 100dvh !important;
   transform: translate(-50%, -50%) scale(1);
   transform-origin: 50% 50%;
   will-change: transform;
